@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+*{
+    text-decoration:none;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background-color: #18181b;
+}
