@@ -158,7 +158,7 @@ section .header{
 
 .features{
     margin-top: 4rem;
-    display: grid;
+    display: flex grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
@@ -166,6 +166,7 @@ section .header{
 
 .features .card{
     background-color: #27272a;
+    margin: 10px;
     padding: 1rem;
     border: 2px solid transparent;
     border-radius: 15px;
@@ -173,7 +174,7 @@ section .header{
 }
 
 .features .card:hover{
-    background-color: #323232;
+    background-color: #d31e1e;
     border-color: #fff;
 }
 
@@ -234,7 +235,7 @@ section .header{
 
 
 .pricing .card:hover{
-    background-color: #323232;
+    background-color: #d31e1e;
     border-color
     : #fff;
 }
